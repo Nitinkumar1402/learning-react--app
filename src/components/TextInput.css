@@ -1,0 +1,23 @@
+.text-input-container {
+    margin-bottom: 10px;
+    max-width: 200px;
+  }
+  
+  .text-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .text-input:focus {
+    outline: none;
+    border-color: rgb(127, 49, 201);
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .text-input.invalid {
+    border-color: #dc3545;
+  }

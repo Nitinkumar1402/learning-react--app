@@ -1,0 +1,1 @@
+export const baseUrl = 'https://resize-full-stack-task.onrender.com';
